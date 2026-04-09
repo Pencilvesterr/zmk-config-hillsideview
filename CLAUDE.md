@@ -44,7 +44,7 @@ The keymap uses three layers:
 
 ### Custom Behaviors
 
-All behaviors are defined in `config/hillside_view.keymap` under the `behaviors` block:
+All behaviors are defined in `config/hillside_view.keymap` under the `behaviors` block. See [`docs/hold-tap-reference.md`](docs/hold-tap-reference.md) for a detailed parameter reference, flavor decision logic, and tuning guide specific to this repo.
 
 - **`hml` / `hmr`** — Homerow modifiers (balanced flavor, 250ms tapping term). Hold positions are configured so only the opposite hand can trigger hold, preventing accidental modifier activation while typing.
 - **`hml_shift` / `hmr_shift`** — Shift-specific homerow mod with tap-preferred flavor.
