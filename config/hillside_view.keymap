@@ -176,6 +176,11 @@
             key-positions = <39 38>;
             timeout-ms = <100>;
         };
+
+        delete_on_shift_bckspc {
+            bindings = <&kp DEL>;
+            key-positions = <45 39>;
+        };
     };
 
     keymap {
